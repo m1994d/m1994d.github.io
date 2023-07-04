@@ -516,7 +516,51 @@
             color: #fff;
         }
 
-        
+        .btn-whatsapp {
+            position: relative;
+          }
+          
+          .btn-whatsapp:before
+          .btn-whatsapp:after {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 4px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: #00e676;
+            opacity: 0;
+            animation: onda 1.7s infinite;
+          }
+          .btn-whatsapp:before {
+            animation-delay: 1s;
+          
+          }
+          
+          .btn-whatsapp:after {
+            animation-delay: 1.3s;
+          }
+          
+          .btn-whatsapp img {
+            position: relative;
+            z-index: 2;
+            }
+          
+          @keyframes onda {
+            0% {
+              transform: scale(1);
+            }
+          
+            15% {
+              opacity: 1;
+            }
+          
+            100% {
+              opacity: 0;
+              transform: scale(2.5);
+            }
+          }
           
         /* *********************/
         /* seccion F O O T E R */
