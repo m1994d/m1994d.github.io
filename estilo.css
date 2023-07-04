@@ -517,7 +517,7 @@
         }
 
         .button {
-            position: center;
+            position: relative;
             border: none;
             background: transparent;
             --stroke-color: #ffffff7c;
