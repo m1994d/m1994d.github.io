@@ -47,7 +47,7 @@
 .twitter {
   margin-top: 1.5em;
   margin-left: -.9em;
-  fill: #03A9F4;
+  fill: #25d366;
 }
 
 .card3 {
@@ -96,7 +96,7 @@
 .card2:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #03A9F4;
+  background-color: #25d366;
 }
 
 .card2:hover .twitter {
